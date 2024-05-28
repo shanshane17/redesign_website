@@ -1174,6 +1174,7 @@ button {
     no-repeat center;
   background-size: cover;
   z-index: 84;
+  cursor: pointer;
 }
 .rectangle-32 {
   position: absolute;

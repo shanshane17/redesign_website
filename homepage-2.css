@@ -1102,6 +1102,7 @@ button {
     no-repeat center;
   background-size: cover;
   z-index: 83;
+  cursor: pointer;
 }
 .search {
   position: absolute;
