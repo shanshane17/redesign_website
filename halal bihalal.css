@@ -1,0 +1,329 @@
+:root {
+  --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+}
+
+.main-container {
+  overflow: hidden;
+}
+
+.main-container,
+.main-container * {
+  box-sizing: border-box;
+}
+
+input,
+select,
+textarea,
+button {
+  outline: 0;
+}
+
+.main-container {
+  position: relative;
+  width: 1440px;
+  height: 1024px;
+  margin: 0 auto;
+  background: #fffcfc;
+  overflow: hidden;
+}
+.rectangle {
+  position: relative;
+  width: 1440px;
+  height: 120px;
+  margin: 0 0 0 0;
+  background: #2a674d;
+  z-index: 1;
+}
+.lambang-kabupaten-pasuruan {
+  position: absolute;
+  width: 79px;
+  height: 94px;
+  top: 15px;
+  left: 42px;
+  background: url(./assets/images/fee0eadafe02b0d9ac48d167fdd3b4af54bc40a6.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 2;
+}
+.pemerintah-kabupaten-pasuruan {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  width: 289px;
+  height: 56px;
+  top: 34px;
+  left: 133px;
+  color: #ffffff;
+  font-family: Arial, var(--default-font-family);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 27.598px;
+  text-align: left;
+  text-overflow: initial;
+  text-transform: capitalize;
+  z-index: 3;
+  overflow: hidden;
+}
+.galeri-foto {
+  display: block;
+  position: relative;
+  height: 41px;
+  margin: 103px 0 0 604px;
+  color: #000000;
+  font-family: Arial, var(--default-font-family);
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 41px;
+  text-align: left;
+  text-transform: capitalize;
+  white-space: nowrap;
+  z-index: 10;
+}
+.kegiatan-dan-acara-masyarakat-kabupaten-pasuruan {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  position: relative;
+  width: 860px;
+  height: 41px;
+  margin: 15px 0 0 274px;
+  color: #000000;
+  font-family: Arial, var(--default-font-family);
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 41px;
+  text-align: right;
+  white-space: nowrap;
+  z-index: 11;
+}
+.flex-row-a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  width: 1185px;
+  height: 231px;
+  margin: 27px 0 0 134px;
+  z-index: 16;
+}
+.image {
+  flex-shrink: 0;
+  position: relative;
+  width: 388px;
+  height: 230px;
+  background: url(./assets/images/1258d4e8f3bbacaac8a3183119f6332a4db38795.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 13;
+}
+.image-1 {
+  flex-shrink: 0;
+  position: relative;
+  width: 387px;
+  height: 231px;
+  background: url(./assets/images/2bb89e79dce3a02b606e78ba8f4870ca504fbf29.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 12;
+}
+.image-2 {
+  flex-shrink: 0;
+  position: relative;
+  width: 388px;
+  height: 231px;
+  background: url(./assets/images/371b93cf677b19bd09bb54b76befc790a752432e.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 16;
+}
+.flex-row-b {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  width: 1094px;
+  height: 158px;
+  margin: 17px 0 0 157px;
+  z-index: 20;
+}
+.image-3 {
+  flex-shrink: 0;
+  position: relative;
+  width: 260px;
+  height: 158px;
+  background: url(./assets/images/f902587cdb6121868c7b26819e650828fd788bca.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 17;
+}
+.image-4 {
+  flex-shrink: 0;
+  position: relative;
+  width: 260px;
+  height: 158px;
+  background: url(./assets/images/f9b79abbb5cd7c57809862a7f448f05137e6696f.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 18;
+}
+.image-5 {
+  flex-shrink: 0;
+  position: relative;
+  width: 260px;
+  height: 158px;
+  background: url(./assets/images/8682e1607b528bde54de39cc42f015df4a92ec80.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 19;
+}
+.image-6 {
+  flex-shrink: 0;
+  position: relative;
+  width: 260px;
+  height: 158px;
+  background: url(./assets/images/b37b750f28f89bf82e464eb14985dac8a899be82.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 20;
+}
+.flex-row-d {
+  position: relative;
+  width: 184px;
+  height: 51px;
+  margin: 71px 0 0 29px;
+  font-size: 0px;
+  z-index: 15;
+  overflow: visible auto;
+}
+.back {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 111px;
+  height: 37px;
+  margin: 7px 0 0 36px;
+  color: #ffffff;
+  font-family: Arial, var(--default-font-family);
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 36.797px;
+  text-align: center;
+  text-transform: capitalize;
+  white-space: nowrap;
+  z-index: 15;
+}
+.rectangle-7 {
+  position: absolute;
+  width: 184px;
+  height: 51px;
+  top: 0;
+  left: 0;
+  cursor: pointer;
+  background: #192346;
+  border: none;
+  opacity: 0.9;
+  z-index: 14;
+  border-radius: 25px;
+}
+.flex-row {
+  position: relative;
+  width: 1486px;
+  height: 93px;
+  margin: 56px 0 0 -46px;
+  z-index: 9;
+}
+.rectangle-8 {
+  position: absolute;
+  width: 1440px;
+  height: 93px;
+  top: 0;
+  left: 46px;
+  background: #d9d9d9;
+}
+.government-office {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  width: 505px;
+  height: 56px;
+  top: 26px;
+  left: 45px;
+  color: #000000;
+  font-family: Arial, var(--default-font-family);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 13.799px;
+  text-align: left;
+  text-overflow: initial;
+  z-index: 7;
+  overflow: hidden;
+}
+.rectangle-9 {
+  position: absolute;
+  width: 41px;
+  height: 36px;
+  top: 38px;
+  left: 1229px;
+  background: url(./assets/images/30780fca-6327-4ab4-ba4a-a87596c862e4.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 8;
+}
+.youtube {
+  position: absolute;
+  width: 36px;
+  height: 36px;
+  top: 38px;
+  left: 1174px;
+  background: url(./assets/images/3ed9d9289d14f2a9ba26be328748a3f5de61238e.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 6;
+}
+.instagram {
+  position: absolute;
+  width: 36px;
+  height: 36px;
+  top: 39px;
+  left: 1284px;
+  background: url(./assets/images/c989d1bc9130dc61d956178d67ea0865e881036b.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 4;
+}
+.facebook {
+  position: absolute;
+  width: 36px;
+  height: 36px;
+  top: 39px;
+  left: 1337px;
+  background: url(./assets/images/4047442ef23d060ad539f447dec52efec7786a0d.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 5;
+}
+.pasuruankab-go-id {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 344px;
+  height: 7px;
+  top: 23px;
+  left: 0;
+  color: #000000;
+  font-family: Arial, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 7px;
+  text-align: center;
+  text-transform: lowercase;
+  white-space: nowrap;
+  z-index: 9;
+}
