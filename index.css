@@ -1133,6 +1133,7 @@
     background-size: cover;
     z-index: 85;
     box-sizing: content-box;
+    cursor: pointer;
   }
   .selamat-datang-di-portal {
     display: flex;
