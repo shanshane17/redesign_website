@@ -42,7 +42,7 @@ button {
   height: 93px;
   top: 50%;
   left: 16px;
-  background: url(./assets/images/51656740-0653-4366-8d93-4be7f1cea13e.png)
+  background: url(assets/51656740-0653-4366-8d93-4be7f1cea13e.png)
     no-repeat center;
   background-size: cover;
   transform: translate(0, -50%);
