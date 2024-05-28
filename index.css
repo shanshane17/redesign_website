@@ -1133,7 +1133,7 @@
     background-size: cover;
     z-index: 85;
     box-sizing: content-box;
-    cursor: pointer;
+    /*cursor: pointer; */
   }
   .selamat-datang-di-portal {
     display: flex;
@@ -1152,17 +1152,17 @@
     text-align: right;
     z-index: 23;
   }
-  .ellipse-2e {
-    position: absolute;
-    width: 135px;
-    height: 130px;
-    top: 192px;
-    left: 0;
-    background: url(./assets-index/c4b5e744-4d87-441e-95e5-c9497f7835e6.png)
-      no-repeat center;
-    background-size: cover;
-    z-index: 82;
-  }
+    .ellipse-2e {
+      position: absolute;
+      width: 135px;
+      height: 130px;
+      top: 192px;
+      left: 0;
+      background: url('./assets-index/c4b5e744-4d87-441e-95e5-c9497f7835e6.png') no-repeat center;
+      background-size: cover;
+      z-index: 82;
+      cursor: pointer;
+    }
   .ellipse-2f {
     position: absolute;
     width: 135px;

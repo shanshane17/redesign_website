@@ -1068,6 +1068,7 @@ button {
   background: url(./assets-hp2/251b1a9de35d66c0f7a98e36d056225f26388172.png)
     no-repeat center;
   background-size: cover;
+  cursor: pointer;
 }
 .rectangle-2b {
   position: absolute;
@@ -1163,6 +1164,7 @@ button {
     no-repeat center;
   background-size: cover;
   z-index: 82;
+  cursor: pointer;
 }
 .ellipse-2f {
   position: absolute;
