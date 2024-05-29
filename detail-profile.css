@@ -1,0 +1,567 @@
+:root {
+  --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+}
+
+.main-container {
+  overflow: hidden;
+}
+
+.main-container,
+.main-container * {
+  box-sizing: border-box;
+}
+
+input,
+select,
+textarea,
+button {
+  outline: 0;
+}
+
+.main-container {
+  position: relative;
+  width: 1440px;
+  height: 1024px;
+  margin: 0 auto;
+  font-size: 0px;
+  background: rgba(182, 214, 212, 0.5);
+  overflow: hidden;
+}
+.pemerintahan {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 288px;
+  height: 41px;
+  margin: 78px 0 0 613px;
+  color: #193018;
+  font-family: Arial, var(--default-font-family);
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 41px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 18;
+}
+.lambang-kabupaten-pasuruan {
+  position: relative;
+  width: 79px;
+  height: 94px;
+  margin: 32px 0 0 712px;
+  background: url(./assets/images/fee0eadafe02b0d9ac48d167fdd3b4af54bc40a6.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 20;
+}
+.flex-row-ef {
+  position: relative;
+  width: 344px;
+  height: 30px;
+  margin: 32px 0 0 579px;
+  z-index: 26;
+}
+.rectangle {
+  position: absolute;
+  width: 253px;
+  height: 30px;
+  top: 0;
+  left: 45px;
+  cursor: pointer;
+  background: rgba(255, 255, 255, 0.5);
+  border: none;
+  z-index: 25;
+  border-radius: 8px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+.pasuruankab-go-id {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 344px;
+  height: 7px;
+  top: 12px;
+  left: 0;
+  color: #000000;
+  font-family: SeoulNamsan, var(--default-font-family);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 7px;
+  text-align: center;
+  text-transform: lowercase;
+  white-space: nowrap;
+  z-index: 26;
+}
+.flex-row-ad {
+  position: relative;
+  width: 442px;
+  height: 44px;
+  margin: 32px 0 0 530px;
+  z-index: 24;
+}
+.rectangle-1 {
+  position: absolute;
+  width: 442px;
+  height: 44px;
+  top: 0;
+  left: 0;
+  background: #e7ecf1;
+  border: 4px solid #1a3019;
+  opacity: 0.7;
+  z-index: 22;
+  border-radius: 25px;
+  backdrop-filter: blur(2px);
+}
+.group-input {
+  position: absolute;
+  width: 442px;
+  height: 44px;
+  top: 0;
+  left: 0;
+  background: transparent;
+  border: none;
+  z-index: 24;
+  outline: none;
+}
+.search {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  margin: 10px 0 0 403px;
+  background: url(./assets/images/ea829fab24b8a142342c24a92aa25dc2f0a88283.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 23;
+}
+.flex-row-db {
+  position: relative;
+  width: 1628px;
+  height: 198px;
+  margin: 127px 0 0 -13px;
+  z-index: 31;
+}
+.rectangle-2 {
+  position: absolute;
+  width: 192px;
+  height: 186px;
+  top: 0;
+  left: 338px;
+  background: rgba(182, 214, 212, 0.4);
+  z-index: 27;
+}
+.lambang-kabupaten-pasuruan-3 {
+  position: relative;
+  width: 79px;
+  height: 94px;
+  margin: 23px 0 0 56px;
+  background: url(./assets/images/fee0eadafe02b0d9ac48d167fdd3b4af54bc40a6.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 29;
+}
+.rectangle-4 {
+  position: relative;
+  width: 192px;
+  height: 53px;
+  margin: 16px 0 0 0;
+  background: #205972;
+  z-index: 36;
+}
+.bupati-dan-wakil-bupati {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 147px;
+  height: 45px;
+  top: 4px;
+  left: 23px;
+  color: #ffffff;
+  font-family: Arial, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 22.998px;
+  text-align: center;
+  z-index: 37;
+}
+.rectangle-5 {
+  position: absolute;
+  width: 192px;
+  height: 186px;
+  top: 0;
+  left: 637px;
+  background: rgba(182, 214, 212, 0.4);
+  z-index: 31;
+}
+.lambang-kabupaten-pasuruan-6 {
+  position: relative;
+  width: 79px;
+  height: 94px;
+  margin: 23px 0 0 56px;
+  background: url(./assets/images/fee0eadafe02b0d9ac48d167fdd3b4af54bc40a6.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 33;
+}
+.rectangle-7 {
+  position: relative;
+  width: 192px;
+  height: 53px;
+  margin: 16px 0 0 1px;
+  background: #205972;
+  z-index: 40;
+}
+.lembaga-legislatif {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 147px;
+  height: 45px;
+  top: 0;
+  left: 22px;
+  color: #ffffff;
+  font-family: Arial, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 22.998px;
+  text-align: center;
+  z-index: 41;
+}
+.rectangle-8 {
+  position: absolute;
+  width: 192px;
+  height: 186px;
+  top: 0;
+  left: 936px;
+  background: rgba(182, 214, 212, 0.4);
+  z-index: 30;
+}
+.lambang-kabupaten-pasuruan-9 {
+  position: relative;
+  width: 79px;
+  height: 94px;
+  margin: 23px 0 0 57px;
+  background: url(./assets/images/fee0eadafe02b0d9ac48d167fdd3b4af54bc40a6.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 35;
+}
+.rectangle-a {
+  position: relative;
+  width: 192px;
+  height: 53px;
+  margin: 16px 0 0 0;
+  cursor: pointer;
+  background: #205972;
+  border: none;
+  z-index: 38;
+}
+.lembaga-eksekutif {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 147px;
+  height: 45px;
+  top: 4px;
+  left: 23px;
+  color: #ffffff;
+  font-family: Arial, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 22.998px;
+  text-align: center;
+  z-index: 39;
+}
+.rectangle-b {
+  position: absolute;
+  width: 76px;
+  height: 82px;
+  top: 116px;
+  left: 0;
+  background: #739072;
+  z-index: 8;
+  border-radius: 15px;
+}
+.disabled {
+  position: relative;
+  width: 50px;
+  height: 61px;
+  margin: 9px 0 0 19px;
+  background: url(./assets/images/cbe8dd9ebb12af0a9fb93a49c8e46e968ea14005.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 9;
+}
+.rectangle-c {
+  position: absolute;
+  width: 63px;
+  height: 63px;
+  top: 126px;
+  left: 1565px;
+  background: url(./assets/images/3e0a8b9b366508a15df29f18c692cd5633d32e0b.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 1;
+}
+.rectangle-d {
+  position: absolute;
+  width: 63px;
+  height: 63px;
+  top: 0;
+  left: 0;
+  background: url(./assets/images/3e0a8b9b366508a15df29f18c692cd5633d32e0b.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 2;
+}
+.rectangle-e {
+  position: absolute;
+  width: 63px;
+  height: 63px;
+  top: 0;
+  left: 0;
+  background: url(./assets/images/3e0a8b9b366508a15df29f18c692cd5633d32e0b.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 3;
+}
+.rectangle-f {
+  position: absolute;
+  width: 63px;
+  height: 63px;
+  top: 0;
+  left: 0;
+  background: url(./assets/images/3e0a8b9b366508a15df29f18c692cd5633d32e0b.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 4;
+}
+.flex-row {
+  position: relative;
+  width: 111px;
+  height: 37px;
+  margin: 161px 0 0 47px;
+  z-index: 43;
+}
+.rectangle-10 {
+  position: absolute;
+  width: 107px;
+  height: 37px;
+  top: 0;
+  left: 0;
+  cursor: pointer;
+  background: rgba(12, 52, 69, 0.9);
+  border: none;
+  opacity: 0.9;
+  z-index: 42;
+  border-radius: 50px;
+}
+.back {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 111px;
+  height: 23px;
+  top: 7px;
+  left: 0;
+  color: #ffffff;
+  font-family: Arial, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 22.998px;
+  text-align: center;
+  text-transform: capitalize;
+  white-space: nowrap;
+  z-index: 43;
+}
+.flex-row-11 {
+  position: relative;
+  width: 1498px;
+  height: 102px;
+  margin: 19px 0 0 -58px;
+  z-index: 16;
+}
+.rectangle-12 {
+  position: absolute;
+  width: 1442px;
+  height: 102px;
+  top: 0;
+  left: 56px;
+  background: #d9d9d9;
+  z-index: 10;
+}
+.government-office {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  width: 505px;
+  height: 56px;
+  top: 25px;
+  left: 38px;
+  color: #000000;
+  font-family: Arial, var(--default-font-family);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 13.799px;
+  text-align: left;
+  text-overflow: initial;
+  z-index: 15;
+  overflow: hidden;
+}
+.government-office-13 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  width: 505px;
+  height: 56px;
+  top: 27px;
+  left: 35px;
+  color: #000000;
+  font-family: Arial, var(--default-font-family);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 13.799px;
+  text-align: left;
+  text-overflow: initial;
+  z-index: 6;
+  overflow: hidden;
+}
+.instagram-link {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  width: 43px;
+  height: 43px;
+  top: 27px;
+  left: 1275px;
+  color: rgba(0, 0, 0, 0);
+  font-family: Arial, var(--default-font-family);
+  font-size: 5px;
+  font-weight: 700;
+  line-height: 5.75px;
+  text-align: left;
+  text-decoration: underline;
+  text-transform: capitalize;
+  z-index: 17;
+}
+.instagram {
+  position: absolute;
+  width: 36px;
+  height: 36px;
+  top: 32px;
+  left: 1278px;
+  background: url(./assets/images/c989d1bc9130dc61d956178d67ea0865e881036b.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 13;
+}
+.facebook {
+  position: absolute;
+  width: 36px;
+  height: 36px;
+  top: 32px;
+  left: 1331px;
+  background: url(./assets/images/4047442ef23d060ad539f447dec52efec7786a0d.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 14;
+}
+.rectangle-14 {
+  position: absolute;
+  width: 41px;
+  height: 36px;
+  top: 34px;
+  left: 1217px;
+  background: url(./assets/images/67833056-22fa-48ae-a233-fbe15ae67e16.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 12;
+}
+.youtube {
+  position: absolute;
+  width: 36px;
+  height: 36px;
+  top: 34px;
+  left: 1162px;
+  background: url(./assets/images/3ed9d9289d14f2a9ba26be328748a3f5de61238e.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 11;
+}
+.pasuruan-website {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 344px;
+  height: 7px;
+  top: 20px;
+  left: 4px;
+  color: #000000;
+  font-family: Arial, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 7px;
+  text-align: center;
+  text-transform: lowercase;
+  white-space: nowrap;
+  z-index: 16;
+}
+.pasuruan-website-15 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 344px;
+  height: 7px;
+  top: 24px;
+  left: 0;
+  color: #000000;
+  font-family: Arial, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 7px;
+  text-align: center;
+  text-transform: lowercase;
+  white-space: nowrap;
+  z-index: 5;
+}
+.agenda {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 17px;
+  height: 5px;
+  margin: 70px 0 0 1321px;
+  color: #ffffff;
+  font-family: League Spartan, var(--default-font-family);
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 5px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 7;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.bali-bible {
+  position: absolute;
+  width: 1440px;
+  height: 925px;
+  top: 0;
+  left: 1px;
+  background: url(./assets/images/aac81521316cf2a9010a7598358c80b7c1cf53a7.png)
+    no-repeat center;
+  background-size: cover;
+  opacity: 0.7;
+}
